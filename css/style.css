@@ -14,9 +14,7 @@ html
 body
 { font: normal 80% Arial, Helvetica, sans-serif;
   color: #FFF;
-  background: transparent url(http://www.popsci.com/sites/popsci.com/files/styles/large_1x_/public/rtx1b5ct.jpg?itok=_8RXaNW1) repeat;
-}
-
+  background: transparent url(http://www.popsci.com/sites/popsci.com/files/styles/large_1x_/public/rtx1b5ct.jpg?itok=_8RXaNW1) }
 /* tell the browser to render HTML 5 elements as block */
 article, aside, figure, footer, header, hgroup, nav, section { 
   display:block;
