@@ -177,7 +177,7 @@ ul#nav li a
   color: #FFF;
   text-decoration: none;
 	transition: background-color 1s;
-	-webkit-transition: background-color 1s;
+	-webkit-transition: background-color 1000ms;
 } 
   
 ul#nav li.current a
@@ -187,7 +187,7 @@ ul#nav li.current a
   background: -o-linear-gradient(#451804, #000);
   background: -webkit-linear-gradient(#451804, #000);  
   text-shadow: none;
-  transition: background-color 1s;
+  transition: background-color 1000ms;
 }
   
 ul#nav li:hover a
@@ -197,8 +197,8 @@ ul#nav li:hover a
   background: -o-linear-gradient(#451804, #000);
   background: -webkit-linear-gradient(#451804, #000); 
   text-shadow: none;
-	transition: background-color 1s;
-	-webkit-transition: background-color 1s;
+	transition: background-color 1000ms;
+	-webkit-transition: background-color 1000ms;
 }
 
 #site_content
