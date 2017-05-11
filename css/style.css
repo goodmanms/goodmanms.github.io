@@ -11,10 +11,10 @@ html
 { margin: 0;
   padding: 0;}
 
-body
-{ font: normal 80% Arial, Helvetica, sans-serif;
+body{
+	font: normal 80% Arial, Helvetica, sans-serif;
   color: #FFF;
-  background: transparent url(http://www.popsci.com/sites/popsci.com/files/styles/large_1x_/public/rtx1b5ct.jpg?itok=_8RXaNW1) ;
+  background: transparent url(http://www.popsci.com/sites/popsci.com/files/styles/large_1x_/public/rtx1b5ct.jpg?itok=_8RXaNW1);
  background-repeat : no-repeat;
 	background-size : 100%;
 	background-color : black;
@@ -113,9 +113,9 @@ nav
   text-align: center; 
   margin: 0 auto;
   background: #4C133E;
-  background: -moz-linear-gradient(#98325A, #4C133E);
-  background: -o-linear-gradient(#98325A, #4C133E);
-  background: -webkit-linear-gradient(#98325A, #4C133E);
+  background: -moz-linear-gradient(#c1440e, #8e3209);
+  background: -o-linear-gradient(#c1440e, #8e3209);
+  background: -webkit-linear-gradient(#c1440e, #8e3209);
   border-radius: 7px 7px 0px 0px;
   -moz-border-radius: 7px 7px 0px 0px;
   -webkit-border: 7px 7px 0px 0px;} 
@@ -158,7 +158,8 @@ ul#nav li
   list-style: none;
   margin: 2px 0 0 0;
   display: inline;
-  background: transparent;}
+  background: transparent;
+transition: all 0.5s ease;}
 
 ul#nav li a
 { float: left;
@@ -168,28 +169,37 @@ ul#nav li a
   text-shadow: 0px -1px 0px #000;
   padding: 6px 20px 0 20px;
   background: transparent; 
+	background-color: transparent;
   border-radius: 7px 7px 7px 7px;
   -moz-border-radius: 7px 7px 7px 7px;
   -webkit-border: 7px 7px 7px 7px;
   text-align: center;
   color: #FFF;
-  text-decoration: none;} 
+  text-decoration: none;
+	transition: background-color 1s;
+	-webkit-transition: background-color 1s;
+} 
   
 ul#nav li.current a
 { color: #FFF;
   background: #0043A8;
-  background: -moz-linear-gradient(#43A9FF, #0043A8);
-  background: -o-linear-gradient(#43A9FF, #0043A8);
-  background: -webkit-linear-gradient(#43A9FF, #0043A8);  
-  text-shadow: none;}
+  background: -moz-linear-gradient(#451804, #000);
+  background: -o-linear-gradient(#451804, #000);
+  background: -webkit-linear-gradient(#451804, #000);  
+  text-shadow: none;
+  transition: background-color 1s;
+}
   
 ul#nav li:hover a
 { color: #FFF;
   background: #0043A8;
-  background: -moz-linear-gradient(#43A9FF, #0043A8);
-  background: -o-linear-gradient(#43A9FF, #0043A8);
-  background: -webkit-linear-gradient(#43A9FF, #0043A8);
-  text-shadow: none;}
+  background: -moz-linear-gradient(#451804, #000);
+  background: -o-linear-gradient(#451804, #000);
+  background: -webkit-linear-gradient(#451804, #000); 
+  text-shadow: none;
+	transition: background-color 1s;
+	-webkit-transition: background-color 1s;
+}
 
 #site_content
 { width: 940px;
